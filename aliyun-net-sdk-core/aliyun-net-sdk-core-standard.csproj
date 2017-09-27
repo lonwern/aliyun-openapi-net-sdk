@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Aliyun.Acs.Core</AssemblyName>
+    <RootNamespace>Aliyun.Acs.Core</RootNamespace>
+    <Company>Aliyun Corporation</Company>
+    <Product>aliyun-net-sdk-core</Product>
+    <Description>.NET Aliyun Open API SDK.</Description>
+    <Authors>Aliyun Corporation, Lonwern</Authors>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>Lonwern.Aliyun.Acs.Core</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright ©  2015 Aliyun Corporation</Copyright>
+    <Version>1.1.6</Version>
+    <PackageLicenseUrl>https://github.com/lonwern/aliyun-openapi-net-sdk/blob/netstandard2.0/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/lonwern/aliyun-openapi-net-sdk</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/lonwern/aliyun-openapi-net-sdk/blob/netstandard2.0/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/lonwern/aliyun-openapi-net-sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aliyun openapi</PackageTags>
+    <PackageReleaseNotes>https://github.com/lonwern/aliyun-openapi-net-sdk</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+</Project>
