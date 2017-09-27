@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Aliyun.Acs.Iot</AssemblyName>
+    <RootNamespace>Aliyun.Acs</RootNamespace>
+    <Company>Aliyun Corporation</Company>
+    <Product>aliyun-net-sdk-iot</Product>
+    <Description>.NET Aliyun Open API SDK.</Description>
+    <Authors>Aliyun Corporation, Lonwern</Authors>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>Lonwern.Aliyun.Acs.Iot</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright ©  2015 Aliyun Corporation</Copyright>
+    <Version>1.0.0</Version>
+    <PackageLicenseUrl>https://github.com/lonwern/aliyun-openapi-net-sdk/blob/netstandard2.0/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/lonwern/aliyun-openapi-net-sdk</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/lonwern/aliyun-openapi-net-sdk/blob/netstandard2.0/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/lonwern/aliyun-openapi-net-sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aliyun openapi</PackageTags>
+    <PackageReleaseNotes>https://github.com/lonwern/aliyun-openapi-net-sdk</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aliyun-net-sdk-core\aliyun-net-sdk-core-standard.csproj" />
+  </ItemGroup>
+
+</Project>
