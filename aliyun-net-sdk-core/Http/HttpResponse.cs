@@ -147,6 +147,7 @@ namespace Aliyun.Acs.Core.Http
                 httpWebRequest = (HttpWebRequest)WebRequest.Create(request.Url);
             }
 
+            httpWebRequest.Proxy = null;  //proxy is not supported on .NET Core
             httpWebRequest.ServicePoint.Expect100Continue = false;
             httpWebRequest.Method = request.Method.ToString();
             httpWebRequest.KeepAlive = true;

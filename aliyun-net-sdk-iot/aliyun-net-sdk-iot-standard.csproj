@@ -12,7 +12,7 @@
     <PackageId>Bigger.Aliyun.Acs.Iot</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright ©  2015 Aliyun Corporation</Copyright>
-    <Version>1.0.1.1</Version>
+    <Version>1.0.1.2</Version>
     <PackageLicenseUrl>https://github.com/lonwern/aliyun-openapi-net-sdk/blob/netstandard2.0/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/lonwern/aliyun-openapi-net-sdk</PackageProjectUrl>
     <PackageIconUrl>https://github.com/lonwern/aliyun-openapi-net-sdk/blob/netstandard2.0/logo.png</PackageIconUrl>
