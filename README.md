@@ -3,7 +3,7 @@
 ## Requirements
 
 - 支持 .NET Standard 2.0；
-- 下载SDK 把 aliyun-net-sdk-core.dll 和相应产品的 .dll 文件添加引用到项目中。
+- 把相应产品的[NuGet包](https://www.nuget.org/packages?q=Bigger.Aliyun.Acs)添加引用到项目中。
 
 ## Example
 
