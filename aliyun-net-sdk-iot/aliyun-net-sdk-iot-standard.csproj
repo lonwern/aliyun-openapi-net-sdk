@@ -30,4 +30,14 @@
     <ProjectReference Include="..\aliyun-net-sdk-core\aliyun-net-sdk-core-standard.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Regions\endpoints.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Regions\endpoints.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>  
+  </ItemGroup>
+
 </Project>
