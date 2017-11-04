@@ -9,7 +9,7 @@
     <Description>.NET Aliyun Open API SDK.</Description>
     <Authors>Aliyun Corporation, Lonwern</Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageId>Lonwern.Aliyun.Acs.Core</PackageId>
+    <PackageId>Bigger.Aliyun.Acs.Core</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright ©  2015 Aliyun Corporation</Copyright>
     <Version>1.1.6</Version>
