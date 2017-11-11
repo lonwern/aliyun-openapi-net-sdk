@@ -33,13 +33,13 @@ namespace Aliyun.Acs.Iot.Model.V20170420
         {
         }
 
-		private long? productKey;
+		private string productKey;
 
 		private long? ruleId;
 
 		private string deviceName;
 
-		public long? ProductKey
+		public string ProductKey
 		{
 			get
 			{
@@ -48,7 +48,7 @@ namespace Aliyun.Acs.Iot.Model.V20170420
 			set	
 			{
 				productKey = value;
-				DictionaryUtil.Add(QueryParameters, "ProductKey", value.ToString());
+				DictionaryUtil.Add(QueryParameters, "ProductKey", value);
 			}
 		}
 

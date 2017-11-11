@@ -35,7 +35,7 @@ namespace Aliyun.Acs.Iot.Model.V20170420
 
 		private List<string> topics;
 
-		private long? productKey;
+		private string productKey;
 
 		private string subCallback;
 
@@ -58,7 +58,7 @@ namespace Aliyun.Acs.Iot.Model.V20170420
 			}
 		}
 
-		public long? ProductKey
+		public string ProductKey
 		{
 			get
 			{
@@ -67,7 +67,7 @@ namespace Aliyun.Acs.Iot.Model.V20170420
 			set	
 			{
 				productKey = value;
-				DictionaryUtil.Add(QueryParameters, "ProductKey", value.ToString());
+				DictionaryUtil.Add(QueryParameters, "ProductKey", value);
 			}
 		}
 
