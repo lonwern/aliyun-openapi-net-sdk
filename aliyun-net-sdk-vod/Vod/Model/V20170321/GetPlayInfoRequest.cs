@@ -29,13 +29,13 @@ namespace Aliyun.Acs.vod.Model.V20170321
     public class GetPlayInfoRequest : RpcAcsRequest<GetPlayInfoResponse>
     {
         public GetPlayInfoRequest()
-            : base("vod", "2017-03-21", "GetPlayInfo", "vod", "openAPI")
+            : base("vod", "2017-03-21", "GetPlayInfo")
         {
         }
 
-		private string rand;
-
 		private long? resourceOwnerId;
+
+		private string streamType;
 
 		private string formats;
 
@@ -43,32 +43,25 @@ namespace Aliyun.Acs.vod.Model.V20170321
 
 		private string channel;
 
-		private string action;
-
 		private string videoId;
 
 		private string playerVersion;
 
 		private long? ownerId;
 
+		private string accessKeyId;
+
+		private string rand;
+
+		private string reAuthInfo;
+
+		private string action;
+
+		private string definition;
+
 		private long? authTimeout;
 
 		private string authInfo;
-
-		private string accessKeyId;
-
-		public string Rand
-		{
-			get
-			{
-				return rand;
-			}
-			set	
-			{
-				rand = value;
-				DictionaryUtil.Add(QueryParameters, "Rand", value);
-			}
-		}
 
 		public long? ResourceOwnerId
 		{
@@ -80,6 +73,19 @@ namespace Aliyun.Acs.vod.Model.V20170321
 			{
 				resourceOwnerId = value;
 				DictionaryUtil.Add(QueryParameters, "ResourceOwnerId", value.ToString());
+			}
+		}
+
+		public string StreamType
+		{
+			get
+			{
+				return streamType;
+			}
+			set	
+			{
+				streamType = value;
+				DictionaryUtil.Add(QueryParameters, "StreamType", value);
 			}
 		}
 
@@ -122,19 +128,6 @@ namespace Aliyun.Acs.vod.Model.V20170321
 			}
 		}
 
-		public string Action
-		{
-			get
-			{
-				return action;
-			}
-			set	
-			{
-				action = value;
-				DictionaryUtil.Add(QueryParameters, "Action", value);
-			}
-		}
-
 		public string VideoId
 		{
 			get
@@ -174,6 +167,71 @@ namespace Aliyun.Acs.vod.Model.V20170321
 			}
 		}
 
+		public string AccessKeyId
+		{
+			get
+			{
+				return accessKeyId;
+			}
+			set	
+			{
+				accessKeyId = value;
+				DictionaryUtil.Add(QueryParameters, "AccessKeyId", value);
+			}
+		}
+
+		public string Rand
+		{
+			get
+			{
+				return rand;
+			}
+			set	
+			{
+				rand = value;
+				DictionaryUtil.Add(QueryParameters, "Rand", value);
+			}
+		}
+
+		public string ReAuthInfo
+		{
+			get
+			{
+				return reAuthInfo;
+			}
+			set	
+			{
+				reAuthInfo = value;
+				DictionaryUtil.Add(QueryParameters, "ReAuthInfo", value);
+			}
+		}
+
+		public string Action
+		{
+			get
+			{
+				return action;
+			}
+			set	
+			{
+				action = value;
+				DictionaryUtil.Add(QueryParameters, "Action", value);
+			}
+		}
+
+		public string Definition
+		{
+			get
+			{
+				return definition;
+			}
+			set	
+			{
+				definition = value;
+				DictionaryUtil.Add(QueryParameters, "Definition", value);
+			}
+		}
+
 		public long? AuthTimeout
 		{
 			get
@@ -197,19 +255,6 @@ namespace Aliyun.Acs.vod.Model.V20170321
 			{
 				authInfo = value;
 				DictionaryUtil.Add(QueryParameters, "AuthInfo", value);
-			}
-		}
-
-		public string AccessKeyId
-		{
-			get
-			{
-				return accessKeyId;
-			}
-			set	
-			{
-				accessKeyId = value;
-				DictionaryUtil.Add(QueryParameters, "AccessKeyId", value);
 			}
 		}
 
